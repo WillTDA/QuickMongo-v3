@@ -1,0 +1,26 @@
+{
+  "name": "@willtda/quickmongo-v3",
+  "version": "1.0.0",
+  "description": "Fork of QuickMongo v3 with Updated Dependencies and Security Patches",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "mongoose": "^5.11.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quickmongo",
+    "mongodb",
+    "mongoose",
+    "schema",
+    "api",
+    "database",
+    "quick.db",
+    "enmap",
+    "endb"
+  ],
+  "author": "WillTDA",
+  "license": "ISC"
+}
