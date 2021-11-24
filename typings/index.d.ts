@@ -1,4 +1,4 @@
-declare module "quickmongo" {
+declare module "@willtda/quickmongo-v3" {
   	import * as Mongoose from "mongoose";
 	import { EventEmitter } from "events";
 
@@ -134,7 +134,7 @@ declare module "quickmongo" {
 		public push(key: string, value: any | any[]): Promise<any>;
 		public pull(key: string, value: any | any[], multiple?: boolean): Promise<any>;
 		public entries(): Promise<number>;
-		public raw(params?: Mongoose.QueryFindOptions): Promise<Mongoose.Document>;
+		public raw(params?: Mongoose.QueryOptions): Promise<Mongoose.Document>;
 		public random(limit?: number): Promise<DataSet[]>;
 		public table(name: string): Database;
 		public createModel(name: string): Database;
